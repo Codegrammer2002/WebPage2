@@ -1,0 +1,202 @@
+/* These are the comments in the CSS file.
+ * I first have the main tags in this file. If they need any css property I put them first.
+ * I then have the classes
+ * ids are at last since these are so many
+ */
+
+ /* main tags */
+h1{
+  color: red;
+
+}
+div[title = "attr"]{
+  background-color: pink;
+
+
+}
+/* color class */
+.clr{
+  background-color: yellow;
+
+}
+/* selector class */
+.slctrs{
+  background-color: green;
+
+}
+
+/* spacing class*/
+.spc{
+padding: 63px;
+border: 1.2px solid #4CAF12;
+
+}
+
+/* overflow class*/
+.og-flow{
+  background-color: yellow;
+width: 300px;
+height: 80px;
+overflow-x:scroll;
+overflow-y: scroll;
+
+}
+
+/*Ids */
+
+/* font id */
+#font1{
+  font-family: cursive;
+}
+#font2{
+  font-family: fantasy;
+}
+#font3{
+  font-family: monospace;
+
+}
+
+/* color id*/
+#clr1{
+  color: red;
+}
+#clr2{
+  color: black;
+
+}
+#clr3{
+  color:#0111fe;
+
+}
+/* format id*/
+#frt1{
+  font-weight: bold;
+}
+#frt2{
+  font-style: italic;
+}
+
+#frt3{
+  text-decoration:underline;
+
+}
+#frt4{
+  text-decoration: line-through;
+
+}
+#frt5{
+text-shadow:  2px 2px #FF2211;
+}
+
+/* selector id */
+
+#slctrs2{
+  background-color: cyan;
+}
+
+#loc3{
+  color: purple;
+
+}
+#siz1{
+  font-size: Small;
+
+}
+#siz2{
+  font-size: 18px;
+
+}
+#siz3{
+  font-size: 150%;
+}
+
+/* border id*/
+#brdr1{
+  border-color: red;
+  border-style: solid;
+
+}
+#brdr2{
+  border-color: grey;
+
+  border-style: dashed;
+}
+
+/* input ids*/
+#ip1:hover{
+  background-color: #967620;
+  transition-property: all;
+  transition-duration: 0.5s;
+
+}
+#ip2:hover{
+  background-color: #967620;
+  transition-property: all;
+  transition-duration: 0.5s;
+
+}
+/*  displays ids */
+#disp1{
+  background-color: green;
+
+}
+#disp2{
+  background-color: yellow;
+
+}
+#disp3{
+  background-color: pink;
+
+}
+#disp4{
+  background-color: cyan;
+
+}
+/*  Alignments ids*/
+#algnL{
+  text-align: left;
+}
+#algnC{
+  text-align: center;
+}
+
+#algnR{
+  text-align: right;
+}
+/* Position ids */
+#posA{
+    background-color: red;
+    font-size: 100%;
+    position: relative;
+    top:-20px;
+    left: 600px
+
+}
+#posB{
+  background-color: blue;
+  font-size: 200%;
+  position: relative;
+}
+
+#posC{
+background-color: pink;
+  al
+  position: relative;
+}
+
+#posD{
+  text-align: left;
+  background-color: cyan;
+
+    font-size: 200%;
+    position: relative;
+}
+
+#posE{
+font-size: 28px;
+background-color: brown;
+position: relative;
+top: -4.2px;
+left: 100px;
+
+}
